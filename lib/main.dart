@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
         fit: StackFit.expand,
         children: <Widget>[
           Container(
-            decoration: BoxDecoration(color: Colors.blueAccent),
+            decoration: BoxDecoration(color: Colors.yellowAccent),
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
