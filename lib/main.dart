@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5),()=> print("next activity"))
+    Timer(Duration(seconds: 5), () => print("next activity"));
   }
 
   @override
