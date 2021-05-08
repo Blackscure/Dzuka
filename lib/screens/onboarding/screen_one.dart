@@ -109,6 +109,7 @@ class OnboardingScreenOne extends StatelessWidget {
                 children: [
                   Container(
                     alignment: Alignment.centerRight,
+                    // ignore: deprecated_member_use
                     child: FlatButton(
                       onPressed: () => print('Skip'),
                       child: Text(
