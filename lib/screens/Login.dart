@@ -1,4 +1,4 @@
-import 'package:authui/ForgotPassword.dart';
+import 'package:dzuka/screens/ForgotPassword.dart';
 import 'package:flutter/material.dart';
 import 'Signup.dart';
 
@@ -15,7 +15,7 @@ class _LoginState extends State<Login> {
     return Container(
       decoration: BoxDecoration(
           gradient:
-              new LinearGradient(colors: [Colors.blue, Colors.blue[200]])),
+              new LinearGradient(colors: [Colors.yellow, Colors.blue])),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Stack(
@@ -120,12 +120,12 @@ class _LoginState extends State<Login> {
                           EdgeInsets.symmetric(horizontal: 26, vertical: 10),
                       decoration: BoxDecoration(
                           gradient: new LinearGradient(
-                              colors: [Colors.blue, Colors.blue[200]]),
+                              colors: [Colors.blue, Colors.yellow]),
                           borderRadius: BorderRadius.circular(20),
                           boxShadow: [
                             BoxShadow(
                                 blurRadius: 4,
-                                color: Colors.blue[200],
+                                color: Colors.yellow,
                                 offset: Offset(2, 2))
                           ]),
                       child: Text(
@@ -195,12 +195,12 @@ class _LoginState extends State<Login> {
                             EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         decoration: BoxDecoration(
                             gradient: new LinearGradient(
-                                colors: [Colors.blue, Colors.blue[200]]),
+                                colors: [Colors.blue, Colors.yellow]),
                             borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
                                   blurRadius: 4,
-                                  color: Colors.blue[200],
+                                  color: Colors.yellow,
                                   offset: Offset(2, 2))
                             ]),
                         child: Text(
