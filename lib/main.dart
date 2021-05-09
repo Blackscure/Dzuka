@@ -1,3 +1,4 @@
+import 'package:dzuka/screens/onboarding/screen_one.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -14,10 +15,13 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  @override
-  void initState() {
-    super.initState();
-    Timer(Duration(seconds: 5), () => print("next activity"));
+   @override
+ void initState() {
+ super.initState();
+ Timer(
+    Duration(seconds: 5),
+    () => Navigator.push(
+        context, MaterialPageRoute(builder: (context) => OnboardingScreenOne())));
   }
 
   @override

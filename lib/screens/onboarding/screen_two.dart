@@ -26,10 +26,10 @@ class OnboardingScreenTwo extends StatelessWidget {
                   ),
                 ),
                 Image(
+                   image: AssetImage('assets/images/onboard2.png'),
                   width: size.width,
                   height: size.height * 0.6,
                   fit: BoxFit.cover,
-                  image: AssetImage('assets/images/onboard2.png'),
                 ),
               ],
             ),
@@ -54,7 +54,7 @@ class OnboardingScreenTwo extends StatelessWidget {
                       height: size.height * 0.02,
                     ),
                     Text(
-                      'Lorem Ipsum is simply dummy \ntext of the printing and typesetting industry.',
+                      'pay  \nusing your phone.',
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontSize: 18,
