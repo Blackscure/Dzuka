@@ -54,7 +54,7 @@ class OnboardingScreenOne extends StatelessWidget {
                       height: size.height * 0.02,
                     ),
                     Text(
-                      'Lorem Ipsum is simply dummy \ntext of the printing and typesetting industry.',
+                      'Select any product \n of your choice.',
                       textAlign: TextAlign.end,
                       style: TextStyle(
                         fontSize: 18,
