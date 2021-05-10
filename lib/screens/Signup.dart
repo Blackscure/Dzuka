@@ -13,7 +13,7 @@ class _SignupState extends State<Signup> {
     return Container(
       decoration: BoxDecoration(
           gradient:
-              new LinearGradient(colors: [Colors.blue, Colors.blue[200]])),
+              new LinearGradient(colors: [Colors.blue, Colors.yellow])),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Stack(

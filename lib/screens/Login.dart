@@ -15,7 +15,7 @@ class _LoginState extends State<Login> {
     return Container(
       decoration: BoxDecoration(
           gradient:
-              new LinearGradient(colors: [Colors.yellow, Colors.blue])),
+              new LinearGradient(colors: [Colors.yellow, Colors.yellow])),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Stack(
