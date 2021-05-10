@@ -87,12 +87,12 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                           EdgeInsets.symmetric(horizontal: 26, vertical: 10),
                       decoration: BoxDecoration(
                           gradient: new LinearGradient(
-                              colors: [Colors.yellowAccent, Colors.blue[200]]),
+                              colors: [Colors.yellowAccent, Colors.yellow]),
                           borderRadius: BorderRadius.circular(20),
                           boxShadow: [
                             BoxShadow(
                                 blurRadius: 4,
-                                color: Colors.blue[200],
+                                color: Colors.yellow,
                                 offset: Offset(2, 2))
                           ]),
                       child: Text(
